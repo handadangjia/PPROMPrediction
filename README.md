@@ -41,18 +41,18 @@ git clone https://github.com/handadangjia/PPROMPrediction
 cd PPROMPrediction
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 
 ## Usage
 Run the GUI:
+
 ```bash
 python pprom_prediction_gui_shap.py
 
 Upload feature data via the "Browse Data" button.
-
 Click "Run Prediction" to populate the table with predicted probabilities.
-
 Select a sample in the table and click "Show SHAP Explanation" to view the embedded SHAP force/bar plot for that sample.
 
 Requirements：
