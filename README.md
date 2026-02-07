@@ -55,7 +55,7 @@ python pprom_prediction_gui_shap.py
 Upload feature data via the "Browse Data" button.
 Click "Run Prediction" to populate the table with predicted probabilities.
 Select a sample in the table and click "Show SHAP Explanation" to view the embedded SHAP force/bar plot for that sample.
-The text1.xlsx file saved in the demo is simulated data generated to mimic our training model dataset.
+The simulated_data.xlsx file saved in the demo is simulated data generated to mimic our training model dataset.
 
 Requirements：
 Python 3.9+
